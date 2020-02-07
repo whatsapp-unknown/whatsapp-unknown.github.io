@@ -231,6 +231,7 @@ textarea.input100 {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
+	text-align: center;
 }
 
 .input100:focus + .focus-input100 {
@@ -274,7 +275,7 @@ textarea.input100 {
   color: #fff;
   line-height: 1.2;
   /*text-transform: uppercase;*/
-
+  background-color: #00bfa5;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -308,7 +309,7 @@ textarea.input100 {
 }
 
 .contact100-form-btn:hover:before {
-  background-color: #403866;
+  background-color: #00bfa5;
   width: calc(100% + 20px);
 }
 
